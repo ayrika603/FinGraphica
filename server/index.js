@@ -42,8 +42,8 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
     
-   // await mongoose.connection.db.dropDatabase();
-  //KPI.insertMany(kpis);
+   await mongoose.connection.db.dropDatabase();
+KPI.insertMany(kpis);
   // Product.insertMany(products);
    //Transaction.insertMany(transactions)
     
