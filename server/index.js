@@ -32,7 +32,7 @@ app.use("/transaction",transactionRoutes);
 
 
 /* MONGOOSE SETUP */
-const PORT = "https://fin-graphica.vercel.app/";
+const PORT = "https://fin-graphica.vercel.app/_logs";
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
