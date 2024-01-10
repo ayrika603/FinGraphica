@@ -32,7 +32,7 @@ app.use("/transaction",transactionRoutes);
 
 
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT || 9000;
+const PORT = https://fin-graphica-g4ku47k6o-ayrika603s-projects.vercel.app|| 9000;
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
@@ -42,8 +42,8 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
     
-   await mongoose.connection.db.dropDatabase();
-KPI.insertMany(kpis);
+   //await mongoose.connection.db.dropDatabase();
+//KPI.insertMany(kpis);
   // Product.insertMany(products);
    //Transaction.insertMany(transactions)
     
